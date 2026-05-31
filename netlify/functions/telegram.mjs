@@ -11,8 +11,8 @@ export default async (req) => {
             return new Response('Message is required', { status: 400 });
         }
 
-        const token = '8605786732:AAE-9RcnY3JVt7UfECtME6ruEx-RPJUaiTI';
-        const chatId = '-5240434843';
+        const token = '8984375348:AAHDT20XTienAyljfoHln5Om4SYs-X2eQ1g';
+        const chatId = '-5178537037';
 
         if (!token || !chatId) {
             return new Response('Configuration missing', { status: 500 });
